@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "iot-client",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "asia-east1"
+      }
+    }
+  ]
+}

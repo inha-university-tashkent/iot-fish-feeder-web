@@ -99,8 +99,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "iot-client:build:production",
+              "serveTarget": "iot-client:serve:production"
+            },
+            "development": {
+              "buildTarget": "iot-client:build:development",
+              "serveTarget": "iot-client:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "580b11b0-6e89-475d-98b5-e4bf85782856"
   }
 }

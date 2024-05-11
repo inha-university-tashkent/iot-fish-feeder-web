@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "iot-rockets": {
+      "hosting": {
+        "iot-client": [
+          "iot-rockets"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "iot-rockets"
+  }
+}
